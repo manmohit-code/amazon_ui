@@ -1,9 +1,4 @@
-import 'package:amazon_ui/Screens/Login_Page.dart';
 import 'package:amazon_ui/Screens/welcome.dart';
-import 'package:amazon_ui/screens/home_widget.dart';
-import 'package:amazon_ui/screens/utils/routes.dart';
-//import 'package:amazon_ui/screens/new_account.dart';
-//import 'package:amazon_ui/screens/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,12 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: Welcome(),
-      routes: {
-        MyRoutes.homewidgetRoutes: (context) => HomeWidget(),
-        MyRoutes.loginRoutes: (context) => LoginPage(),
-      },
-      debugShowCheckedModeBanner: false,
+      home: const Welcome(),
+      debugShowCheckedModeBanner: true,
     );
   }
 }

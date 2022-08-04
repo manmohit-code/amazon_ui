@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:amazon_ui/Screens/Login_Page.dart';
 import 'package:flutter/material.dart';
-import 'package:amazon_ui/Screens/Login_Page.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({Key? key}) : super(key: key);
