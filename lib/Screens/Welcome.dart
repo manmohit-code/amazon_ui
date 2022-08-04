@@ -1,6 +1,7 @@
 import 'dart:async';
-import 'package:amazon_ui/screens/login_page.dart';
+import 'package:amazon_ui/Screens/Login_Page.dart';
 import 'package:flutter/material.dart';
+import 'package:amazon_ui/Screens/Login_Page.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({Key? key}) : super(key: key);
@@ -17,8 +18,8 @@ class _WelcomeState extends State<Welcome> {
     super.initState();
     Timer(
         const Duration(seconds: 3),
-        () => Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (BuildContext context) => const LoginPage())));
+        () => Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => const LoginPage())));
   }
 
   @override

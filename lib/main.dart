@@ -1,6 +1,6 @@
+import 'package:amazon_ui/Screens/Login_Page.dart';
 import 'package:amazon_ui/Screens/welcome.dart';
 import 'package:amazon_ui/screens/home_widget.dart';
-import 'package:amazon_ui/screens/login_page.dart';
 import 'package:amazon_ui/screens/utils/routes.dart';
 //import 'package:amazon_ui/screens/new_account.dart';
 //import 'package:amazon_ui/screens/utils/routes.dart';
