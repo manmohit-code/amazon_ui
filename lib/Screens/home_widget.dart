@@ -1,6 +1,5 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:amazon_ui/screens/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 class HomeWidget extends StatefulWidget {
@@ -15,8 +14,8 @@ class _HomeWidgetState extends State<HomeWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(),
-      drawer: Drawer(),
+      body: const Center(),
+      drawer: const Drawer(),
     );
   }
 }

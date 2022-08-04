@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: Welcome(),
+      home: const Welcome(),
       routes: {
-        MyRoutes.homewidgetRoutes: (context) => HomeWidget(),
-        MyRoutes.loginRoutes: (context) => LoginPage(),
+        MyRoutes.homewidgetRoutes: (context) => const HomeWidget(),
+        MyRoutes.loginRoutes: (context) => const LoginPage(),
       },
       debugShowCheckedModeBanner: false,
     );
