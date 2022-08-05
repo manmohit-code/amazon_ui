@@ -1,5 +1,3 @@
-// ignore: file_names
-// ignore: file_names
 
 import 'package:amazon_ui/screens/utils/routes.dart';
 import 'package:flutter/gestures.dart';
@@ -110,7 +108,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 10,
             ),
             InkWell(
-              //Use For Perfome Tast With Animation
+              //Use For Perfome Task With Animation
               onTap: () {
                 Navigator.pushNamed(context, MyRoutes.newaccountRoutes);
                 //write code here
@@ -151,8 +149,8 @@ class _LoginPageState extends State<LoginPage> {
                           text: "Conditions of Use",
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-                              //Navigator.pushNamed(
-                              //  context, MyRoutes.loginRoutes);
+                              Navigator.pushNamed(
+                                  context, MyRoutes.homewidgetRoutes);
                               ////Link Condition Page Here////
                             },
                           style: const TextStyle(
@@ -161,7 +159,8 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         TextSpan(
                           text: " and\n",
-                          style: const TextStyle(fontSize: 12, color: Colors.black),
+                          style: const TextStyle(
+                              fontSize: 12, color: Colors.black),
                           children: <TextSpan>[
                             TextSpan(
                               text: "Privacy Notice.",
@@ -201,7 +200,8 @@ class _LoginPageState extends State<LoginPage> {
                         RichText(
                           text: TextSpan(
                             text: " ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                             children: <TextSpan>[
                               TextSpan(
                                 text: "Privacy Notice",
@@ -222,7 +222,8 @@ class _LoginPageState extends State<LoginPage> {
                         RichText(
                           text: TextSpan(
                             text: " ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                             children: <TextSpan>[
                               TextSpan(
                                 text: "Help",

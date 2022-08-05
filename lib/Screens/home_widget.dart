@@ -14,8 +14,9 @@ class _HomeWidgetState extends State<HomeWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Center(),
-      drawer: const Drawer(),
+      body: const Center(
+        child: Text("this is home page"),
+      ),
     );
   }
 }
