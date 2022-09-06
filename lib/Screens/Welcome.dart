@@ -1,5 +1,7 @@
+// ignore: file_names
 import 'dart:async';
-import 'package:amazon_ui/Screens/Login_Page.dart';
+
+import 'package:amazon_ui/Screens/login_page.dart';
 import 'package:flutter/material.dart';
 
 class Welcome extends StatefulWidget {
